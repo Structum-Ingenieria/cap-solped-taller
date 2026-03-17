@@ -5,5 +5,5 @@ service capsolped {
         descripcion: String;
         sub: String;
     };
-    function BPA() returns String;
+    function BPA(input: String) returns String;
 }
